@@ -1,0 +1,11 @@
+# Ignore Mac system files
+.DS_store
+
+# Ignore IDE configurations
+.idea/
+
+# Ignore datasets
+dataset/
+
+# Ignore
+training_data.npy

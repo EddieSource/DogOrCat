@@ -59,9 +59,7 @@ class DogsVSCats():
 if REBUILD_DATA:
     dogsvcats = DogsVSCats()
     dogsvcats.make_training_data()
-
-
-plt.imshow(training_data[1][0], cmap = "gray")
+    #plt.imshow(dogsvcats.training_data[1][0], cmap = "gray") if you want to visualize the image
 
 
 
